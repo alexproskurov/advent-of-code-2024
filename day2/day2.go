@@ -17,7 +17,7 @@ func main() {
 	}
 	fmt.Println(totalSafeLevels)
 
-	totalToleratedLevels, err := PartOne("your_file.txt")
+	totalToleratedLevels, err := PartTwo("your_file.txt")
 	if err != nil {
 		log.Fatalf("Error processing file: %v", err)
 	}
